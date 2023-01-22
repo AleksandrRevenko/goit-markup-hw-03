@@ -42,7 +42,12 @@ body {
     padding-top: 120px;
 }
 
-.logo-web {
+/*header*/
+.header {
+    border-bottom: 1px solid var(--color-footer);
+}
+
+.logo {
     padding-top: 24px;
     padding-bottom: 24px;
     color: var(--color-logo-web);
@@ -52,20 +57,12 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-decoration: none;
-
 }
 
-.logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
+.logo-studio {
     color: var(--primary-header-color);
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-decoration: none;
 }
+
 
 .list {
     padding: 0;
@@ -78,7 +75,7 @@ body {
     color: var(--color-hover)
 }
 
-/*header*/
+
 
 .list-nav {
     display: flex;
@@ -142,7 +139,8 @@ body {
 .section-hero {
     text-align: center;
     background-color: var(--primary-header-color);
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -175,6 +173,7 @@ body {
 }
 
 /*section quality*/
+
 .list {
     display: flex
 }
@@ -206,6 +205,7 @@ body {
 
 /*section-what*/
 .section-what {
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -231,6 +231,10 @@ body {
     background-color: var(--team-background-color);
 }
 
+.team-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .team-title {
     margin-top: 0;
@@ -245,8 +249,6 @@ body {
 }
 
 .team-subtitle {
-    padding-top: 32px;
-    margin-bottom: 8px;
     color: var(--primary-header-color);
     font-weight: 500;
     font-size: 20px;
@@ -260,7 +262,6 @@ body {
 }
 
 .team-text {
-    padding-bottom: 32px;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
@@ -281,7 +282,6 @@ body {
 .footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 879px;
 }
 
 .logo-web-footer {
@@ -306,8 +306,9 @@ body {
 }
 
 .text-footer {
-    margin: 0;
-
+    margin-top: 16px;
+    margin-bottom: 0;
+    width: 264px;
     color: var(--color-footer);
     font-size: 16px;
     line-height: 1.5;
